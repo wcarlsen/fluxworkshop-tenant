@@ -15,5 +15,5 @@ spec:
         app: api
     spec:
       containers:
-      - image: nginx:1.23.1
+      - image: nginx:1.23.1 # {"$imagepolicy": "api:api"}
         name: nginx
